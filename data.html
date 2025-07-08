@@ -136,9 +136,9 @@ Bootstrap 5 Dashboard Admin Template
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="collaborators.html">
-                                    <i class="bi-person me-2"></i>
-                                    Collaborators
+                                <a class="nav-link active" aria-current="page" href="data.html">
+                                    <i class="bi-graph-up me-2"></i>
+                                    Available Data
                                 </a>
                             </li>
 
@@ -154,31 +154,54 @@ Bootstrap 5 Dashboard Admin Template
 
                 <main class="main-wrapper col-md-9 ms-sm-auto py-4 col-lg-9 px-md-4 border-start">
                     <div class="title-group mb-3">
-                        <h1 class="h2 mb-0">Collaborators</h1>
+                        <h1 class="h2 mb-0">Available Data Products</h1>
                     </div>
 
                     <div class="row my-4">
                         <div class="col-lg-12 col-12">
-                            <div class="custom-block custom-block-transations">
-                                <div class="row">
-                                    <div class="col-lg-12 col-12 mb-3">
-                                        <h6>Who we are</h6>
-                                    </div>
+                            <div class="custom-block bg-white">
+
+                                <div class="table-responsive">
+                                    <table class="account-table table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Type</th>
+                                                <th scope="col">Format</th>
+                                                <th scope="col">Link</th>
+                                                <th scope="col">Reference</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+
+                                            <tr>
+                                              <td scope="row">ATLAS Light Curve</td>
+                                              <td scope="row">.npy</td>
+                                              <td scope="row"><a target="_blank" href="https://github.com/3I-ATLAS/discovery-paper/blob/main/src/data/ATLAS.npy">GitHub</a></td>
+                                              <td scope="row"><a target="_blank" href="https://arxiv.org/abs/2507.02757">Seligman et al.</a></td>
+                                            </tr>
+
+                                            <tr>
+                                              <td scope="row">TRAPPIST Light Curve</td>
+                                              <td scope="row">.npy</td>
+                                              <td scope="row"><a target="_blank" href="https://github.com/3I-ATLAS/discovery-paper/blob/main/src/data/TRAPPIST.npy">GitHub</a></td>
+                                              <td scope="row"><a target="_blank" href="https://arxiv.org/abs/2507.02757">Seligman et al.</a></td>
+                                            </tr>
+
+                                            <tr>
+                                              <td scope="row">ATLAS volume detection limits</td>
+                                              <td scope="row">.txt</td>
+                                              <td scope="row"><a target="_blank" href="https://github.com/3I-ATLAS/discovery-paper/blob/main/src/data/3I_xc.txt">GitHub</a></td>
+                                              <td scope="row"><a target="_blank" href="https://arxiv.org/abs/2507.02757">Seligman et al.</a></td>
+                                            </tr>
+
+                                        </tbody>
 
 
-                                    <div class="col-lg-12 col-12">
-                                        <p class="d-flex flex-wrap mb-2">
-                                            <!--<a href="mailto:adina@msu.edu">Adina Feinstein</a>
-                                            <span>&nbsp - &nbspMichigan State University</span>-->
-                                            <a href="mailto:adina@msu.edu">You?</a>
-                                            <span>&nbsp - &nbspYour institution here</span>
-                                        </p>
-
-                                    </div>
+                                    </table>
                                 </div>
+
                             </div>
-
-
                         </div>
 
                     </div>
