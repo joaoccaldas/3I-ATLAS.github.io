@@ -129,16 +129,16 @@ Bootstrap 5 Dashboard Admin Template
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="press.html">
-                                    <i class="bi-newspaper me-2"></i>
-                                    Press Releases
+                                <a class="nav-link" href="data.html">
+                                    <i class="bi-graph-up me-2"></i>
+                                    Available Data
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="data.html">
-                                    <i class="bi-graph-up me-2"></i>
-                                    Available Data
+                                <a class="nav-link" href="press.html">
+                                    <i class="bi-newspaper me-2"></i>
+                                    Press Releases
                                 </a>
                             </li>
 
@@ -180,9 +180,10 @@ Bootstrap 5 Dashboard Admin Template
                                         <thead>
                                             <tr>
                                                 <th scope="col">Date</th>
-                                                <th scope="col">Contact</th>
-                                                <th scope="col">Telescope</th>
-                                                <th scope="col">Instrument</th>
+                                                <th scope="col">Lead</th>
+                                                <th scope="col">Telescope/ Instrument</th>
+                                                <th scope="col">Observation Date [UT]</th>
+                                                <th scope="col">Observation Time Range [UT]</th>
                                                 <th scope="col">Site Code</th>
                                                 <th scope="col">Filter/ Bandpass</th>
                                                 <th scope="col">Status</th>
@@ -197,11 +198,54 @@ Bootstrap 5 Dashboard Admin Template
 
                                         <tbody>
 
+                                          <tr>
+                                              <td scope="row">July 8, 2025</td>
+                                              <td scope="row">Olivier Hainaut</td>
+                                              <td scope="row">VLT/ FORS2</td>
+                                              <td scope="row">TBD</td>
+                                              <td scope="row">TBD</td>
+                                              <td scope="row">309</td>
+                                              <td scope="row">R</td>
+                                              <td scope="row"></td>
+                                              <td scope="row"><span class="badge text-bg-warning">
+                                                  Upcoming
+                                              </span></td>
+                                              <td scope="row"></td>
+                                              <td scope="row">
+                                                  <span class="badge text-bg-success">
+                                                      Yes
+                                                  </span>
+                                              </td>
+                                              <td scope="row"><a href="mailto:ohainaut@eso.org">ohainaut@eso.org</a></td>
+                                          </tr>
+
+                                          <tr>
+                                              <td scope="row">July 8, 2025</td>
+                                              <td scope="row">Olivier Hainaut</td>
+                                              <td scope="row">VLT/ FORS2</td>
+                                              <td scope="row">2025-07-04</td>
+                                              <td scope="row">06:50 - 07:15</td>
+                                              <td scope="row">309</td>
+                                              <td scope="row">R</td>
+                                              <td scope="row">Good seeing for astrometry</td>
+                                              <td scope="row"><span class="badge text-bg-success">
+                                                  Completed
+                                              </span></td>
+                                              <td scope="row">clear</td>
+                                              <td scope="row">
+                                                  <span class="badge text-bg-success">
+                                                      Yes
+                                                  </span>
+                                              </td>
+                                              <td scope="row"><a href="mailto:ohainaut@eso.org">ohainaut@eso.org</a></td>
+                                          </tr>
+
                                             <tr>
                                                 <td scope="row">July 4, 2025</td>
                                                 <td scope="row">Tim Lister</td>
-                                                <td scope="row">FTN</td>
-                                                <td scope="row">MusCAT3</td>
+                                                <td scope="row">FTN/ MuSCAT3</td>
+                                                <td scope="row">2025-07-04</td>
+                                                <td scope="row">08:50 - 11:50</td>
                                                 <td scope="row">F65</td>
                                                 <td scope="row">griz</td>
                                                 <td scope="row">Multi-filter deep imaging/lightcurve</td>
@@ -215,46 +259,6 @@ Bootstrap 5 Dashboard Admin Template
                                                     </span>
                                                 </td>
                                                 <td scope="row"><a href="mailto:tlister@lco.global">tlister@lco.global</a></td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">July 8, 2025</td>
-                                                <td scope="row">Olivier Hainaut</td>
-                                                <td scope="row">VLT</td>
-                                                <td scope="row">FORS2</td>
-                                                <td scope="row">309</td>
-                                                <td scope="row">R</td>
-                                                <td scope="row">Good seeing for astrometry</td>
-                                                <td scope="row"><span class="badge text-bg-success">
-                                                    Completed
-                                                </span></td>
-                                                <td scope="row">clear</td>
-                                                <td scope="row">
-                                                    <span class="badge text-bg-success">
-                                                        Yes
-                                                    </span>
-                                                </td>
-                                                <td scope="row"><a href="mailto:ohainaut@eso.org">ohainaut@eso.org</a></td>
-                                            </tr>
-
-                                            <tr>
-                                                <td scope="row">July 8, 2025</td>
-                                                <td scope="row">Olivier Hainaut</td>
-                                                <td scope="row">VLT</td>
-                                                <td scope="row">FORS2</td>
-                                                <td scope="row">309</td>
-                                                <td scope="row">R</td>
-                                                <td scope="row"></td>
-                                                <td scope="row"><span class="badge text-bg-warning">
-                                                    Upcoming
-                                                </span></td>
-                                                <td scope="row"></td>
-                                                <td scope="row">
-                                                    <span class="badge text-bg-success">
-                                                        Yes
-                                                    </span>
-                                                </td>
-                                                <td scope="row"><a href="mailto:ohainaut@eso.org">ohainaut@eso.org</a></td>
                                             </tr>
 
                                             <!--FOR NOs <span class="badge text-bg-danger">-->
