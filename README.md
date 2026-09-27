@@ -7,7 +7,7 @@
 
 Welcome to the **3I-ATLAS Observatory** - a comprehensive web-based platform for tracking and coordinating observations of **3I/ATLAS**, the third confirmed interstellar object detected in our solar system.
 
-This observatory provides real-time data, visualization tools, and collaborative features for professional astronomers and amateur observers interested in studying this fascinating interstellar visitor.
+This observatory is a static educational and visualization prototype for exploring 3I/ATLAS information, observation concepts, and reference material. Some pages use curated/static values; live ephemeris integration remains future work.
 
 ## 🚀 What's New - Recent Improvements
 
@@ -94,7 +94,7 @@ We've completely overhauled the observatory to make it more user-friendly, acces
 ## 🎯 Key Features
 
 ### **Current Status Monitoring**
-- Real-time position tracking (RA/Dec coordinates)
+- Position/status presentation (currently based on curated/static values unless explicitly sourced as live)
 - Current magnitude and brightness
 - Distance from Sun, Earth, and Moon
 - Visibility predictions
@@ -312,7 +312,7 @@ This project uses the [Tooplate](https://www.tooplate.com/) dashboard template. 
 
 ---
 
-**Last Updated**: October 8, 2025  
+**Documentation audit**: September 27, 2026  
 **Version**: 2.0 - Major Usability Update  
 **Status**: ✅ Active Development
 
@@ -339,3 +339,14 @@ This project uses the [Tooplate](https://www.tooplate.com/) dashboard template. 
 ---
 
 **Made with 🌌 for the astronomical community**
+
+
+## Project context
+
+This is a personal, self-directed learning project by João Caldas. I use projects like this to learn web development, scientific communication, data visualization, source evaluation, testing, and AI-assisted development by building real experiences.
+
+AI tools are used extensively during research, design, coding, debugging, testing, and documentation. AI-generated suggestions are treated as inputs to review, not proof of correctness. Scientific claims should be traceable to authoritative sources, and the interface should distinguish static/curated information from genuinely live data.
+
+## Data-truth rule
+
+The public interface must not describe a value as “real-time” or “live” unless the deployed code actually retrieves and timestamps that value from an authoritative data source. Static demonstrations should be labeled as such.
